@@ -45,13 +45,13 @@ Payable Checkout URL:
 - `amount` - Total amount
 - `invoiceId` - Merchant-generated invoice/reference
 - `paymentType` - `1` ONE_TIME_PAYMENT, `2` RECURRING_PAYMENT, `3` TOKENIZE_PAYMENT
-- `customerFirstName`
-- `customerLastName`
-- `customerMobilePhone`
-- `customerEmail`
-- `billingAddressStreet`
-- `billingAddressCity`
-- `billingAddressCountry`
+- `customerFirstName` - Customer’s First Name
+- `customerLastName` - Customer’s Last Name
+- `customerMobilePhone` - Customer’s Mobile No
+- `customerEmail` - Customer’s Email
+- `billingAddressStreet` - Billing Address Line1
+- `billingAddressCity` - Billing City
+- `billingAddressCountry` - Billing Country
 
 **2.2.** Tokenization parameters (required when `paymentType = 3`):
 
