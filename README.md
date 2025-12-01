@@ -8,6 +8,8 @@ First, You need to get the Merchant Key and Merchant Token to integrate with the
 
 - Merchant Key:
 - Merchant Token:
+- Business Key:
+- Business Token:
 
 You can simply use an HTML Form to submit the below params to Payable Payment Gateway. When your customer clicks on the payment/checkout button, It will be redirected to the Payable Payment Gateway. The Customer can confirm the payment by clicking on the 'continue' button. Then your customer will be securely redirected to the commercial bank Payment Gateway and the customer can then enter the credentials (Card No / Cardholder name / CVV ) and process the payment there. Once the payment is made, The payable payment gateway will show the payment status to your customer and send the receipt to your customer's email.
 
