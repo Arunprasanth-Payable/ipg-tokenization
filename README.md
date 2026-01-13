@@ -199,8 +199,8 @@ Content-Type: application/json
 
 **Required Parameters**:
 
-- `merchantId` - Your merchant ID
-- `customerId` - Customer ID
+- `merchantId` - Your merchant ID (Get it from 1st callback)
+- `customerId` - Customer ID (Get it from 1st callback)
 - `checkValue` - Security hash
 
 **CheckValue Generation:**
