@@ -467,7 +467,7 @@ If the customer made the payment by VISA or MASTER credit/debit card, following 
 UPPERCASE(SHA512[merchantKey|payableOrderId|payableTransactionId|payableAmount|currencyCode|invoiceNo|statusCode|UPPERCASE(SHA512[merchantToken])])
 ```
 
-**Formula for Tokenize Payment Webhook Validation:**
+**Formula for Tokenize Payment Webhook Validation (Only for Tokenize Payment):**
 
 ```
 UPPERCASE(SHA512[merchantKey|payableOrderId|payableTransactionId|payableAmount|currencyCode|invoiceNo|statusCode|customerRefNo|UPPERCASE(SHA512[merchantToken])])
