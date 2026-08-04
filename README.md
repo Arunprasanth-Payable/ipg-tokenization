@@ -185,6 +185,8 @@ payablePayment(form_jsondata);
 - **Live Root URL**: `POST https://ipgpayment.payable.lk`
 - **Sandbox Root URL**: `POST https://sandboxipgpayment.payable.lk`
 
+**Note:** Only Visa and Mastercard support the saved card feature. Amex can be used only for one-time payments.
+
 ### 1. List Saved Cards
 
 Retrieve all saved cards for a customer.
